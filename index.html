@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IMDB Clone</title>
+  <link rel="stylesheet" href="path/to/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Home Page -->
+    <div id="home-page">
+      <h1>IMDB Clone</h1>
+      <input type="text" id="search-input" placeholder="Search movie...">
+      <div id="search-results"></div>
+    </div>
+
+    <!-- Movie Page -->
+    <div id="movie-page" style="display: none;">
+      <h1 id="movie-title"></h1>
+      <img id="movie-image" src="">
+      <p id="movie-plot"></p>
+    </div>
+
+    <!-- My Favourite Movies Page -->
+    <div id="favorites-page" style="display: none;">
+      <h1>My Favourite Movies</h1>
+      <ul id="favorites-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rebeccapurple;
+}
+
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+#search-results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-result {
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+.favourite-btn {
+  margin-top: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#favorites-list .search-result {
+  border: none;
+}
+
+#favorites-list button {
+  background-color: #dc3545;
+}
