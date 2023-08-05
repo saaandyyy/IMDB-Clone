@@ -1,5 +1,5 @@
 const apiKey = 'fa5739c3';
-const apiUrl = 'http://www.omdbapi.com/';
+const apiUrl = 'http://www.omdbapi.com';
 
 const searchInput = document.getElementById('search-input');
 const searchResults = document.getElementById('search-results');
